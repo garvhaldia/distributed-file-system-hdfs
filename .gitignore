@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Server storage (user files should not be committed)
+server_storage/u/
+
+# Keep the directory structure but ignore user files
+!server_storage/u/.gitkeep
+
+# SSL certificates (keep example structure but not actual certs)
+# Comment out if you want to include your certificates
+# ssl_certs/*.crt
+# ssl_certs/*.key
+
+# Authentication file - IMPORTANT: Do not commit real passwords
+# Uncomment the line below if you don't want to commit auth file
+# id_passwd.txt
+
+# Logs
+*.log
